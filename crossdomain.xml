@@ -1,0 +1,5 @@
+<cross-domain-policy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.adobe.com/xml/schemas/PolicyFile.xsd">
+  <site-control permitted-cross-domain-policies="master-only"/>
+  <allow-access-from domain="scratchx.org"/>
+  <allow-access-from domain="llk.github.io"/>
+</cross-domain-policy>
