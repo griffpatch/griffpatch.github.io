@@ -1,4 +1,5 @@
-/*
+// https://cdn.jsdelivr.net/gh/griffpatch/griffpatch.github.io/testExtension.js
+
 const ArgumentType = require('../../extension-support/argument-type');
 const BlockType = require('../../extension-support/block-type');
 const Clone = require('../../util/clone');
@@ -6,7 +7,7 @@ const Cast = require('../../util/cast');
 const formatMessage = require('format-message');
 const MathUtil = require('../../util/math-util');
 const Timer = require('../../util/timer');
-*/
+
 
 /**
  * The instrument and drum sounds, loaded as static assets.
@@ -31,10 +32,10 @@ class Scratch3TestExtension {
          * @type {Runtime}
          */
         this.runtime = runtime;
+		debugger;
 
-
-        this._onTargetCreated = this._onTargetCreated.bind(this);
-        this.runtime.on('targetWasCreated', this._onTargetCreated);
+//        this._onTargetCreated = this._onTargetCreated.bind(this);
+//        this.runtime.on('targetWasCreated', this._onTargetCreated);
 /*
         this._playNoteForPicker = this._playNoteForPicker.bind(this);
         this.runtime.on('PLAY_NOTE', this._playNoteForPicker);
