@@ -29,3 +29,19 @@ li a:hover {
 .active {
   background-color: #4CAF50;
 }
+
+.grey {
+	background-color:  #ededed;
+	color: black;
+}
+
+.grey > a {
+	text-decoration: none;
+	color: black;
+}
+
+.present {
+	border: 2px solid lightblue;
+	border-radius: 2px;
+	width: 250px;
+}
